@@ -1,8 +1,6 @@
 import booking.constants as const
 import os
 from selenium import webdriver
-from booking.booking_filtration import BookingFiltration
-
 
 class Booking(webdriver.Chrome):
     def __init__(self, driver_path=r"C:\SeleniumDrivers",
